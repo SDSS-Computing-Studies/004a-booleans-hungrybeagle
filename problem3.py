@@ -7,7 +7,7 @@
 # then display the message "Access granted"
 # 1 marks
 
-name = strip(input("Enter name:"))
+name = (input("Enter name:")).strip()
 print(name)
 if name == "admin":
     pw = input("Enter password:")
