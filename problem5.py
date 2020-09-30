@@ -22,7 +22,7 @@ b = float(input("b"))
 c = float(input("c"))
 factorable = False
 discr = b**2 - 4 * a * c
-if discr > 0:
+if discr >= 0:
     if math.sqrt(discr) == math.floor( math.sqrt(discr)):
         factorable = True
 
