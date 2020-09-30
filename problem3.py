@@ -8,7 +8,7 @@
 # 1 marks
 
 name = input("Enter name:")
-if name == "admin":
+if "admin" in name:
     pw = input("Enter password:")
     if pw == "12345password":
         print("Access granted")
