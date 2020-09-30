@@ -10,7 +10,7 @@
 name = (input("Enter name:")).strip()
 print(name)
 if name == "admin":
-    pw = input("Enter password:").strip()
+    pw = (input("Enter password:")).strip()
     if pw == "12345password":
         print("Access granted")
     else:
