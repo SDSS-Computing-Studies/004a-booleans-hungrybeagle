@@ -11,3 +11,9 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+
+num = input("Enter a positive integer")
+if num%2 ==0 :
+    print('the numbers is even')
+else:
+    print("the number is odd")

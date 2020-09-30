@@ -12,6 +12,8 @@ if name == "admin":
     pw = input("Enter password:")
     if pw == "12345password":
         print("Access granted")
+    else:
+        print("Access denied")
 
 else:
     print("invalid user")
