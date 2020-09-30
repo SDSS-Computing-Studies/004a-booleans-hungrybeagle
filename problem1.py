@@ -13,6 +13,7 @@
 # "the number is odd"
 
 num = input("Enter a positive integer")
+num = float(num)
 if num%2 ==0 :
     print('the numbers is even')
 else:
