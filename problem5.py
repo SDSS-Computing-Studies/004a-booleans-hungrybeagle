@@ -15,6 +15,7 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+import math
 
 a = float(input("a"))
 b = float(input("b"))

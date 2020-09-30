@@ -20,11 +20,11 @@
 
 a = float(input("Enter number:"))
 
-if a > 1000:
+if a >= 1000:
     print(3)
-elif a > 100:
+elif a >= 100:
     print(2)
-elif a > 10:
+elif a >= 10:
     print(1)
-elif a > 0:
+elif a >= 0:
     print(0)
