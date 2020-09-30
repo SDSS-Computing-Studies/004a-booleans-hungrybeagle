@@ -15,3 +15,17 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
+a = float(input("a"))
+b = float(input("b"))
+c = float(input("c"))
+factorable = False
+discr = b**2 - 4 * a * c
+if discr > 0:
+    if math.sqrt(discr) == math.floor( math.sqrt(discr)):
+        factorable = True
+
+if factorable:
+    print("the equation can be factored")
+else:
+    print('the equation can not be factored')
