@@ -10,6 +10,7 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+
 import math
 num = input("Enter a number:")
 num = float(num)
